@@ -4,5 +4,5 @@ def call(String name = 'human') {
 }
 
 def build(String name) {
-  echo "Creating image ${image} in stage "
+  echo "Creating image ${name} in stage "
 }
