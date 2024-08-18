@@ -1,5 +1,5 @@
 def call(String name = 'human') {
-  echo "Hello, ${name}."
+  echo "Hello, ${name}. AAAAAAA"
 }
 
 def buildStage(String name, String image) {
