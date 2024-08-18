@@ -3,6 +3,6 @@ def call(String name = 'human') {
   docker.build(name)
 }
 
-def build(String name) {
-  echo "Creating image in stage ${name}"
+def build(String image, String name) {
+  echo "Creating image ${image} in stage ${name}"
 }
